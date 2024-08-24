@@ -311,12 +311,12 @@ function ConfigureServer({
                                     />)
                                 }
                             </p>
-                            <div className='ConfigureServer__message-img'>
+                            {/* <div className='ConfigureServer__message-img'>
                                 <img
                                     src={womanLaptop}
                                     draggable={false}
                                 />
-                            </div>
+                            </div> */}
                         </div>
                         <div className={classNames('ConfigureServer__card', transition, {'with-error': nameError || urlError?.type === STATUS.ERROR})}>
                             <div

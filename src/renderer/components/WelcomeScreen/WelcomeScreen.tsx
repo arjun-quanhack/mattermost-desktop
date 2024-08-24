@@ -47,11 +47,12 @@ function WelcomeScreen({
     const slides = useMemo(() => [
         {
             key: 'welcome',
-            title: formatMessage({id: 'renderer.components.welcomeScreen.slides.welcome.title', defaultMessage: 'Welcome'}),
-            subtitle: formatMessage({
-                id: 'renderer.components.welcomeScreen.slides.welcome.subtitle',
-                defaultMessage: 'Mattermost is an open source collaboration platform for mission-critical work. Secure, flexible, and integrated with the tools you love.',
-            }),
+            title: formatMessage({id: 'renderer.components.welcomeScreen.slides.welcome.title', defaultMessage: 'Welcome to Lil\'Bot'}),
+            subtitle:'',
+            // subtitle: formatMessage({
+            //     id: 'renderer.components.welcomeScreen.slides.welcome.subtitle',
+            //     defaultMessage: 'Mattermost is an open source collaboration platform for mission-critical work. Secure, flexible, and integrated with the tools you love.',
+            // }),
             image: (
                 <img
                     src={chat2}
@@ -150,7 +151,7 @@ function WelcomeScreen({
                             id='getStartedWelcomeScreen'
                             className={classNames(
                                 'WelcomeScreen__button',
-                                'primary-button primary-medium-button',
+                                'primary-button primary-large-button',
                                 {'primary-button-inverted': darkMode},
                             )}
                             onClick={handleOnGetStartedClick}

@@ -264,7 +264,7 @@
   "renderer.components.welcomeScreen.slides.integrate.subtitle": "Execute and automate workflows with flexible, custom integrations with popular technical tools like GitHub, GitLab, and ServiceNow.",
   "renderer.components.welcomeScreen.slides.integrate.title": "Integrate with tools you love",
   "renderer.components.welcomeScreen.slides.welcome.subtitle": "Mattermost is an open source collaboration platform for mission-critical work. Secure, flexible, and integrated with the tools you love.",
-  "renderer.components.welcomeScreen.slides.welcome.title": "Welcome",
+  "renderer.components.welcomeScreen.slides.welcome.title": "Welcome to Lil'Bot",
   "renderer.downloadsDropdown.ClearAll": "Clear All",
   "renderer.downloadsDropdown.Downloads": "Downloads",
   "renderer.downloadsDropdown.remaining": "remaining",
